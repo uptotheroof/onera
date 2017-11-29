@@ -315,7 +315,7 @@ fn main()
                 msg.push ( x.to_string() );
             } 
         }
-
+//
         // process commands 
         match &cmds[0] as &str
         {
