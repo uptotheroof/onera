@@ -1,5 +1,5 @@
 use std::io;
-
+//git push -u origin master
 struct Onus
 {
     name                : String        ,
@@ -315,8 +315,6 @@ fn main()
                 msg.push ( x.to_string() );
             } 
         }
-
-// test cod
 
         // process commands 
         match &cmds[0] as &str
